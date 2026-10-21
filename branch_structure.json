@@ -1,0 +1,24 @@
+{
+  "default_branch": "contribution",
+  "branches": [
+    "contribution",
+    "fix/issue-754-200-pts-soroban-cross-chain-anchor-bridge-event",
+    "origin",
+    "security/issue-723-200-pts-notifications-native-pagerduty-opsgenie",
+    "security/issue-724-200-pts-backend-priority-queue-lane-allocation"
+  ],
+  "parent": {
+    "contribution": null,
+    "fix/issue-754-200-pts-soroban-cross-chain-anchor-bridge-event": "contribution",
+    "origin": "contribution",
+    "security/issue-723-200-pts-notifications-native-pagerduty-opsgenie": "contribution",
+    "security/issue-724-200-pts-backend-priority-queue-lane-allocation": "contribution"
+  },
+  "order": [
+    "contribution",
+    "fix/issue-754-200-pts-soroban-cross-chain-anchor-bridge-event",
+    "origin",
+    "security/issue-723-200-pts-notifications-native-pagerduty-opsgenie",
+    "security/issue-724-200-pts-backend-priority-queue-lane-allocation"
+  ]
+}
