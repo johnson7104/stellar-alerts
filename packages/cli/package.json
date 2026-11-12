@@ -7,9 +7,9 @@
     "stellar-alerts-cli": "./dist/cli.js"
   },
   "scripts": {
-    "build": "node init && tsc",
+    "build": "tsc",
     "typecheck": "tsc --noEmit",
-    "dev": "node init && tsx src/cli.ts",
+    "dev": "tsx src/cli.ts",
     "test": "vitest run"
   },
   "dependencies": {
